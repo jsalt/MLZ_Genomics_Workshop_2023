@@ -1,4 +1,4 @@
-# MLZ genomics workshop 2023
+# MLZ Genomics Workshop 2023
 
 ## Day 0: To-do *before* the workshop
 
