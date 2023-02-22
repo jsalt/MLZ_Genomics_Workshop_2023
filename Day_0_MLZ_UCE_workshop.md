@@ -1,6 +1,6 @@
 # MLZ genomics workshop 2023
 
-## To-do *before* the workshop
+## Day 0: To-do *before* the workshop
 
 Hello! This tutorial is designed to get you up to speed accessing the Oxy cluster (Bletchley) and installing the key pieces of software we will need to analyze our sequence data. A little housekeeping note: it can be tricky to keep track of where you are in the computing environment when you run each step, so I have included little reminders before each section. We will be working through a terminal window, but sometimes we will need to access files on your local computer (i.e., your laptop), whereas most of the time we will be using the terminal to connect to Bletchley. I have noted this as follows:
 
