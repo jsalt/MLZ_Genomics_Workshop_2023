@@ -26,7 +26,7 @@ You will be prompted to enter your password - you can find it in the email from 
 
 ### Step 2: Install miniconda
 
-Miniconda is a blah blah blah...
+Miniconda is an open-source software management system. Why do you need this? Because analyzing genomic data involves a *lot* of different software, and each of those programs may require different versions of other software and it can get messy and complicated really fast. The appeal of Miniconnda is that by installing this one piece of software, we can install most everything else we need relatively painlessly, and can keep conflicting requirements of different programs nice and tidy. Think of it like a cord manager for the chaos behind your work desk - keeping your cords untangled, providing adapters for different voltages, etc.
 
 **@ your desktop**
 
