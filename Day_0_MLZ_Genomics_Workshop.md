@@ -38,6 +38,12 @@ Miniconda is an open-source software management system. Why do you need this? Be
 rsync ~/Desktop/Miniconda3-py310_23.1.0-1-Linux-x86_64.sh jsalter@bletchley.oxy.edu:~
 ```
 
+  * **If `rsync` is not working for you, try this instead:**
+
+  ```
+  scp ~/Desktop/Miniconda3-py310_23.1.0-1-Linux-x86_64.sh jsalter@bletchley.oxy.edu:~
+  ```
+
 You will be prompted to enter your Bletchley password again. With this command, we are telling `rsync` where to find the Miniconda file `~/Desktop/Miniconda3-py310_23.1.0-1-Linux-x86_64.sh` and where to send it on Bletchley `jsalter@bletchley.oxy.edu:~`, in this case our home directory `~/`.
 
 **@ bletchley**
