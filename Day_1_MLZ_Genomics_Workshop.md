@@ -1,8 +1,8 @@
 # MLZ genomics workshop 2023
 
-## Day 1: Processing data with Illumiprocessor
+## Day 1: Preparing our data with Illumiprocessor
 
-Our goals today are XYZ...
+Our goal today is to go from raw sequencing reads to cleaned reads that we can start analyzing. What does that mean? When we prepared these samples (i.e., library preparation and enrichment) we tagged each invididual with a unique combination of indexes called i5 and i7 adapters. These are eight-nucleotide sequences of DNA that were added onto the end of all the fragments of DNA in each sample, and because each indidvual sample has a unique combination of i5 and i7 sequences we were able to pool many samples together and sequence them all at once. When we get sequence data back from the sequencer, the first step is using those i5/i7 indexes to sort all the reads into each individual sample. This was already done for us by the sequencing facility. The next step is to remove those eight nucleotides at the end of all the reads, because they're not actually the DNA of the organisms that we care about (aka raw reads (with i5/i7 adapters still on) vs. clean reads (i5/i7 adapters removed).
 
 ### Step 0: Bash 101 + file management
 
@@ -87,7 +87,7 @@ I use atom to take notes and I like to have a single document where I write down
 
 ### Step 2: Set up your illumiprocessor conf file and slurm file
 
-[Background on indexes]
+The program we will use to remove the i5/i7 indexes is called [Illumiprocessor](https://github.com/faircloth-lab/illumiprocessor/). The basic workflow is giving illumiprocessor a list of all the samples and what i5/i7 adapters they have attached, as well as the actual eight-nucleotide sequence for each of those adapters is so the program can find and remove those sequences from the end of all our reads.
 
 **@ your desktop**
 
