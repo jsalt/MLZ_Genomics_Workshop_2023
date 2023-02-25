@@ -9,3 +9,5 @@ Follow the instructions for [Day 0](https://github.com/jsalt/MLZ_UCE_workshop_20
 2. Installing Miniconda on Bletchley
 3. Installing Phyluce on Bletchley
 4. Installing the text editor Atom on your own computer
+
+It is also a good idea to read through the [Bletchley Users Guide](https://github.com/justinnhli/bletchley-docs/blob/main/users.md) because we want to be considerate users of this shared resource!
