@@ -382,19 +382,23 @@ phyluce_assembly_assemblo_spades --help
 
 This prints out a list of all the arguments we can pass to phyluce and what they should be. You can do this for any phyluce command.
 
-* The arguments are pretty simple here since we've created a config file. We just need to specify the path to our output directory `--output`, the path to our config file `--config`, and the number of cores `--cores`. Pick a sensible name for the output directoyr, like `spades-assemblies`.
+* The arguments are pretty simple here since we've created a config file. We just need to specify the path to our output directory `--output`, the path to our config file `--config`, and the number of cores `--cores`. Pick a sensible name for the output directory, like `spades-assemblies`. We're going to up the number of cores to 24.
 
 ```
 phyluce_assembly_assemblo_spades \
     --output [name of output directory] \
     --config [name of conf file] \
-    --cores [numnber of cores]
+    --cores 24
 ```
 
 * Now let's create a new slurm file to run this job. We can use our illumiprocessor slurm file as a template, but there a few key things we need to change:
 
 ```
 #SBATCH --job-name=spades
+```
+
+```
+#SBATCH -c 24
 ```
 
 ```
