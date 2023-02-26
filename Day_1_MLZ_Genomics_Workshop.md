@@ -419,7 +419,7 @@ sbatch run-spades.slurm
 
 You should see the output directory appear if it's working properly. You can also check on the status using `squeue`. This will take many hours to run, but should be finished in time for our next session on Wednesday.
 
-## Installing GATK & bwa
+## Installing software for Wednesday
 
 While we're waiting for our assembly to complete, we can get a few things ready for the next steps - mainly, installing the software we will use to call SNPs from our UCE data. The main program we need is called the Genome Analysis ToolKit (GATK for short, and it is a serious piece of bioinformatic software. It can do all manner of fancy analyses, but we're just going to scratch the surface here. You can read more about GATK [here](https://gatk.broadinstitute.org/hc/en-us/articles/360036194592-Getting-started-with-GATK4). GATK is *not* installed through conda, but it is a fairly easy process.
 
