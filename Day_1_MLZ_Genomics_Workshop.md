@@ -143,7 +143,7 @@ asio_otus_15937:asio_otus_15937_kansas
 athene_cunicularia_31327:athene_cunicularia_31327_missouri
 ```
 
-* You can download your config file from the workshop github page. Save it to: **~/Desktop/UCE_workshop**
+* Your config file was in the folder you downloaded from Dropbox (along with the raw read data). Save it to: **~/Desktop/UCE_workshop**
 
 * I use atom to prepare my config file on my computer, but once it's ready we need to get it onto Bletchley into our `UCE_workshop_hpc` directory. We will use `rsync` for this again. **~/Desktop/UCE_workshop**
 
