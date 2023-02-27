@@ -257,12 +257,12 @@ slurm_startjob(){
 source activate phyluce-1.7.2
 
 illumiprocessor \
-    --input [path to directory with raw reads] \
+    --input path to directory with raw reads \
     --output cleaned-reads \
-    --config [illumiprocessor.conf] \
+    --config illumiprocessor.conf \
     --r1-pattern '{}_(R1|READ1|Read1|read1)_\d+.fastq(?:.gz)*' \
     --r2-pattern '{}_(R2|READ2|Read2|read2)_\d+.fastq(?:.gz)*' \
-    --cores [cores]
+    --cores # of cores
 
 }
 
@@ -386,8 +386,8 @@ This prints out a list of all the arguments we can pass to phyluce and what they
 
 ```
 phyluce_assembly_assemblo_spades \
-    --output [name of output directory] \
-    --config [name of conf file] \
+    --output name of output directory \
+    --config name of conf file \
     --cores 24
 ```
 
