@@ -161,12 +161,12 @@ scp ~/Desktop/UCE_workshop/illumiprocessor.conf jsalter@bletchley.oxy.edu:~/UCE_
 
 ```
 illumiprocessor \
-    --input [path to directory with raw reads] \
-    --output [path to directory for clean reads] \
-    --config [illumiprocessor.conf] \
+    --input path to directory with raw reads \
+    --output path to directory for clean reads \
+    --config illumiprocessor.conf \
     --r1-pattern '{}_(R1|READ1|Read1|read1)_\d+.fastq(?:.gz)*' \
     --r2-pattern '{}_(R2|READ2|Read2|read2)_\d+.fastq(?:.gz)*' \
-    --cores [# of cores]
+    --cores # of cores
 ```
 
 The **command** we are running is `illumiprocessor` and we are specifying how we want to run it using **arguments** like `--input` and `--output`. We can learn more about what each of these arguments means by entering `illumiprocessor --help`. But first, we need to activate the conda environment we created for phyluce:
