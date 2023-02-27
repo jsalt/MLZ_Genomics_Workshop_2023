@@ -11,3 +11,13 @@ Follow the instructions for [Day 0](https://github.com/jsalt/MLZ_Genomics_Worksh
 4. Installing the text editor Atom on your own computer
 
 It is also a good idea to read through the [Bletchley Users Guide](https://github.com/justinnhli/bletchley-docs/blob/main/users.md) because we want to be considerate users of this shared resource!
+
+
+## [Day 1:](https://github.com/jsalt/MLZ_Genomics_Workshop_2023/blob/main/Day_1_MLZ_Genomics_Workshop.md) From raw reads to assembled contigs
+
+Today we're going to cover the big picture of what we're doing when we analyze UCE data for phylogenetic / population genetic analyses. Then we're going to tackle four main steps:
+1. Getting our files organized and starting our all-important notes
+2. Trimming the adapters off our raw sequence data with [Illumiprocessor](https://github.com/faircloth-lab/illumiprocessor/)
+3. Assembling our data in [Phyluce](https://phyluce.readthedocs.io/en/latest/purpose.html)
+4. Installing a few more pieces of software for the next steps
+
