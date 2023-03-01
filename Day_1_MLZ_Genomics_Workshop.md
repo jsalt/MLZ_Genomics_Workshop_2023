@@ -317,7 +317,7 @@ If everything is working correctly, we should see our output directory **~/UCE_w
 
 *This should run fairly quickly, but we have a few things to do in the meantime...*
 
-### Assemble our UCE data
+## Assemble our UCE data (we will pick up here on Day 2)
 
 [background on assembly]
 
