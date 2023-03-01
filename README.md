@@ -21,3 +21,7 @@ Today we're going to cover the big picture of what we're doing when we analyze U
 3. Assembling our data in [Phyluce](https://phyluce.readthedocs.io/en/latest/purpose.html)
 4. Installing a few more pieces of software for the next steps
 
+## [Day 2:](https://github.com/jsalt/MLZ_Genomics_Workshop_2023/blob/main/Day_2_MLZ_Genomics_Workshop.md) Generating our pseduoreference
+Today we'll pick up where we left off on Day 1 with the main goal of getting everyone's data assembling. Once that's running, we'll talk about the analytical approach we're using with our datasets and tackle the following:
+1. Download a small example dataset that we'll use to test our code
+2. Develop and test the code to generate a pseudoreference sequence from our assembled data
