@@ -2,7 +2,7 @@
 
 # Day 2
 
-**Note:**Before we dive into these steps, make sure you have completed everything listed on the Day 1 tutorial, including starting assembly and installing GATK and vcftools.
+**Note:** Before we dive into these steps, make sure you have completed everything listed on the Day 1 tutorial, including starting assembly and installing GATK and vcftools.
 
 ## Generate a "pseudoreference" sequence
 
