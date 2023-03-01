@@ -60,7 +60,7 @@ phyluce_assembly_match_contigs_to_probes \
 ```
 Name your output directory something sensible like `uces-callipepla`.
 
-* This code runs fairly quickly (~5 seconds / sample), so we can get away with running it directly on command line without a slurm file. When your command is ready, **activate your phyluce conda environment** and copy the command directly onto bletchley: **~/callipepla-example**
+* This code runs fairly quickly (approx. 5 seconds / sample), so we can get away with running it directly on command line without a slurm file. When your command is ready, **activate your phyluce conda environment** and copy the command directly onto bletchley: **~/callipepla-example**
 
 ### Step 2: Generate your pseudoreference sequence
 
