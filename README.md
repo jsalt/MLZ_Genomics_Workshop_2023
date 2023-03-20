@@ -25,3 +25,10 @@ Today we're going to cover the big picture of what we're doing when we analyze U
 Today we'll pick up where we left off on Day 1 with the main goal of getting everyone's data assembling. Once that's running, we'll talk about the analytical approach we're using with our datasets and tackle the following:
 1. Download a small example dataset that we'll use to test our code
 2. Develop and test the code to generate a pseudoreference sequence from our assembled data
+
+
+## [Day 3:](https://github.com/jsalt/MLZ_Genomics_Workshop_2023/blob/main/Day_3_MLZ_Genomics_Workshop.md) Mapping reads + preparing to call SNPs
+Today we're going to map the reads for each of our samples to our pseudoreference and prepare each sample for SNP calling:
+1. Index our pseudoreference
+2. Download a small example dataset that we'll use to test our code
+3. Develop and test the code to map reads, sort, add read groups, and mark duplicates for each sample
