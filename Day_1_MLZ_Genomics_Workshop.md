@@ -388,7 +388,8 @@ This prints out a list of all the arguments we can pass to phyluce and what they
 phyluce_assembly_assemblo_spades \
     --output name of output directory \
     --config name of conf file \
-    --cores 24
+    --cores 24 \
+    --memory 192
 ```
 
 * Now let's create a new slurm file to run this job. We can use our illumiprocessor slurm file as a template, but there a few key things we need to change:
@@ -399,6 +400,11 @@ phyluce_assembly_assemblo_spades \
 
 ```
 #SBATCH -c 24
+```
+
+```
+#SBATCH --partition long
+#SBATCH --nodelist n009
 ```
 
 ```
