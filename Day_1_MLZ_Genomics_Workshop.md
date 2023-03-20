@@ -404,7 +404,7 @@ phyluce_assembly_assemblo_spades \
 
 ```
 #SBATCH --partition long
-#SBATCH --nodelist n009
+#SBATCH --nodelist [ASK JESSIE FOR HELP HERE]
 ```
 
 ```
