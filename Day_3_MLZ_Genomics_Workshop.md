@@ -2,7 +2,7 @@
 
 # Day 3
 
-**Note:**Before we dive into these steps, make sure you have completed everything listed on the Day 1 & 2 tutorials, especially starting assemblies with your data.
+**Note:** Before we dive into these steps, make sure you have completed everything listed on the Day 1 & 2 tutorials, especially starting assemblies with your data.
 
 ## First, we install more software!
 
