@@ -48,6 +48,12 @@ wget https://raw.githubusercontent.com/faircloth-lab/uce-probe-sets/master/uce-5
 wget https://raw.githubusercontent.com/jsalt/MLZ_Genomics_Workshop_2023/main/phyluce.conf -P ~/miniconda3/envs/phyluce-1.7.2/config
 ```
 
+* For some reason our `phyluce.conf` file is not behaving as it should, but this ought to fix it: **~/callipepla-example**
+
+```
+cat ~/miniconda3/envs/phyluce-1.7.2/config/phyluce.conf > ~/.phyluce.conf
+```
+
 This is downloading a configuration file from github directly to our phyluce conda environment, so everything will run smoothly.
 
 * Now that we have our example data and our probes, we can start building our `match_contigs_to_probes` command in phyluce. Here's the basic syntax:
