@@ -110,11 +110,18 @@ In this example dataset, the sample with the most UCE loci is *callipepla_califo
 
 **@ bletchley**
 
-* Download the UCE contigs for the example dataset:
+* Download the UCE contigs for the example dataset: **~/callipepla-example**
 
 ```
 wget https://github.com/jsalt/MLZ_Genomics_Workshop_2023/raw/main/uces-callipepla.zip
 ```
+
+* Unzip the contigs and probe match database: **~/callipepla-example**
+
+```
+unzip uces-callipepla.zip
+```
+
 
 * Now that we've chosen our pseudoreference we need to output the full UCE loci sequences for this individual so we can use it to map reads against from the rest of our samples. First, we'll create a data configuration file for this sample. We could do this in our text editor and then move it onto bletchley, or we could learn how to create and edit files directly on the command line. Enter the command `nano` followed by the name of the file we want to create: **~/callipepla-example**
 
