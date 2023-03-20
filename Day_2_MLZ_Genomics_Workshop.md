@@ -162,7 +162,7 @@ If we take a peek inside that `pseudoref.conf` file using the `less` command, we
 * For some reason our `phyluce.conf` file is not behaving as it should, but this ought to fix it: **~/callipepla-example**
 
 ```
-cat ~/miniconda3/envs/phyluce-1.7.2/config/phyluce.conf ~/.phyluce.conf
+cat ~/miniconda3/envs/phyluce-1.7.2/config/phyluce.conf > ~/.phyluce.conf
 ```
 
 * Let's write that fasta file! Here's the basic syntax for our phyluce command: **~/callipepla-example**
