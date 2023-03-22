@@ -64,7 +64,7 @@ Now that our psuedoreference is indexed, we're going to map our sample reads bac
 * Once you have your file on bletchley, unzip the reads into a directory: **~/callipepla-example**
 
 ```
-tar -xcvf callipepla-reads.tar.gz
+tar -xzvf callipepla-reads.tar.gz
 ```
 
 * Now let's create a new directory for our mapped reads to go into, and move into that directory: **~/callipepla-example**
