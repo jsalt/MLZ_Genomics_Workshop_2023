@@ -56,7 +56,7 @@ Now that our psuedoreference is indexed, we're going to map our sample reads bac
 
 **@ your desktop**
 
-* First, we need to upload the raw reads for our example dataset to `~/callipepla-example` on bletchley (you should have gotten this file in an email). We can use `rsync`, `scp,`, or [FileZilla](https://filezilla-project.org/download.php?show_all=1).
+* First, we need to upload the cleaned reads for our example dataset to `~/callipepla-example` on bletchley (you should have gotten this file in an email). We can use `rsync`, `scp,`, or [FileZilla](https://filezilla-project.org/download.php?show_all=1).
 
 
 **@ bletchley**
