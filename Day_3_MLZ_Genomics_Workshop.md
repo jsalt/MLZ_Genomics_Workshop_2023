@@ -160,8 +160,6 @@ We should see the file change color if we enter `ls` - this means we can execute
 slurm_startjob(){
 # THIS IS WHERE YOUR JOB SCRIPT GOES
 
-source activate UCE_workshop
-
 # Number of Cores per job (needs to be multiple of 2)
 export CORES_PER_JOB=4
 
@@ -346,8 +344,6 @@ samtools sort -@ $CORES_PER_JOB -o $SAMPL.sorted.bam $BAM
 slurm_startjob(){
 # THIS IS WHERE YOUR JOB SCRIPT GOES
 
-source activate UCE_workshop
-
 # Number of Cores per job (needs to be multiple of 2)
 export CORES_PER_JOB=4
 
@@ -497,8 +493,6 @@ gatk AddOrReplaceReadGroups \
 slurm_startjob(){
 # THIS IS WHERE YOUR JOB SCRIPT GOES
 
-source activate UCE_workshop
-
 # Number of Cores per job (needs to be multiple of 2)
 export CORES_PER_JOB=4
 
@@ -570,7 +564,7 @@ ls -d $PWD/*.RG.bam | sed -E "s/(.*_[0-9]*_.*).RG.bam/\1,\1.RG.bam/" > RG.list
 ```
 #!/bin/bash
 
-source activate radcap
+source activate UCE_workshop
 
 ## set this manually
 CORES_PER_JOB=4
@@ -641,8 +635,6 @@ gatk MarkDuplicates \
 # ------------------------
 slurm_startjob(){
 # THIS IS WHERE YOUR JOB SCRIPT GOES
-
-source activate UCE_workshop
 
 # Number of Cores per job (needs to be multiple of 2)
 export CORES_PER_JOB=4
