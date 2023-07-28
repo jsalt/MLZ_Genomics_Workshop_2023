@@ -253,9 +253,6 @@ This is the general workflow we will be following, because we want to be conside
 slurm_startjob(){
 # THIS IS WHERE YOUR JOB SCRIPT GOES
 
-# activate our conda environment for phyluce
-source activate phyluce-1.7.2
-
 illumiprocessor \
     --input path to directory with raw reads \
     --output cleaned-reads \
@@ -410,9 +407,6 @@ phyluce_assembly_assemblo_spades \
 ```
 slurm_startjob(){
 # THIS IS WHERE YOUR JOB SCRIPT GOES
-
-# activate our conda environment for phyluce
-source activate phyluce-1.7.2
 
 [paste your phyluce command here]
 
