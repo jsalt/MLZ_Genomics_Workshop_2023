@@ -223,10 +223,12 @@ First, we need give it the name of our sample (`$1`); second, we need the path t
 
 *callipepla.list*
 ```
-callipepla_californica_brunnescens_LSU_29626,~/callipepla-example/callipepla-reads/callipepla_californica_brunnescens_LSU_29626-READ-1.fastq,~/callipepla-example/callipepla-reads/callipepla_californica_brunnescens_LSU_29626-READ-2.fastq
+callipepla_californica_brunnescens_LSU_29626,/home/jsalter/UCE_workshop/callipepla-example/callipepla-reads/callipepla_californica_brunnescens_LSU_29626-READ-1.fastq,/home/jsalter/UCE_workshop/callipepla-example/callipepla-reads/callipepla_californica_brunnescens_LSU_29626-READ-2.fastq
 ```
 
 First we have the sample name, second we have the full path the READ1, third the full path to READ2.
+
+**IMPORTANT!!! For some reason, bwa may not like if you abbreviate your full patch using the `~` symbol, so use `/home/yourname/` instead.***
 
 * With only five samples it's concieveable that we could create this file by hand, but once you start working with your real datasets that's going to get unruly. We can use a couple of command line tricks + our text editors to do the heavy lifting. First, let's get a list of the read1 samples using `ls`: **~/callipepla-example**
 
